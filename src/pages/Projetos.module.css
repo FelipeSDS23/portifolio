@@ -1,0 +1,130 @@
+.projetosContainer {
+    background-color: var(--background-color);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    /* background-color: aqua; */
+}
+
+.projetosContainer h2 {
+    font-weight: 700;
+    font-size: 2.4em;
+    margin: 60px;
+    color: #fff;
+    text-align: center;
+
+    /* background-color: burlywood; */
+}
+
+.projetosContainer h2 span {
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: var(--selection-color);
+    text-shadow: -4px 0px 0px var(--shadow-color);
+    padding-left: 10px;
+    margin-bottom: -15px;
+}
+
+
+.containerGrid {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+    gap: 15px 15px;
+    padding: 15px;
+
+    /* background-color: red; */
+}
+
+.containerGrid .gridCard {
+    position: relative;
+    overflow: hidden;
+}
+
+.containerGrid .gridCard .intro {
+    position: absolute;
+    bottom: -53px;
+    left: 0px;
+    transition: .2s;
+    background-color: rgb(27, 27, 27, .6);
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.containerGrid .gridCard .intro h3 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 1.2em;
+}
+
+.containerGrid .gridCard .intro p {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.containerGrid .gridCard img {
+    /* width: 370px;
+    height: 200px; */
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+}
+
+.gridCard:hover .intro {
+    bottom: 0px;
+}
+
+.gridCard:hover .intro p {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
+    .projetosContainer {
+        width: 100vw;
+    }
+
+    .projetosContainer h2 {
+        font-size: 1.8em;
+        margin: 60px 0px 20px 0px;
+    }
+
+    .containerGrid {
+        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+        gap: 25px 15px;
+    }
+
+    .containerGrid .gridCard img {
+        width: 320px;
+        /* height: 180px; */
+    }
+
+    .containerGrid .gridCard .intro {
+        bottom: -75px;
+        padding: 0px 10px;
+    }
+
+    .containerGrid .gridCard .intro h3 {
+        padding: 3px;
+        margin: 0px;
+    }
+
+    /* .gridCard:hover .intro {
+        bottom: -65px;
+    } */
+    
+    /* .gridCard:hover .intro p {
+        visibility: hidden;
+        opacity: 0;
+    } */
+
+}

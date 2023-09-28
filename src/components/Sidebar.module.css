@@ -1,0 +1,133 @@
+.sidebar {
+    background-color: var(--sidebar-color);
+    height: 100vh;
+    max-height: 1000px;
+}
+
+.logoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+    color: var(--font-color);
+    background-color: #000000;
+
+}
+
+.logoContainer .logo {
+    font-size: 7em;
+    font-weight: bolder;
+    color: var(--selection-color);
+    text-shadow: -7px 0px 0px var(--shadow-color);
+    padding-left: 10px;
+    margin-bottom: -15px;
+}
+
+.logoContainer .myName {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 7px;
+    color: #fff;
+}
+
+.logoContainer .webDev {
+    font-size: .8em;
+    font-weight: 500;
+}
+
+.navigationContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+}
+
+.navigationContainer ul {
+    list-style-type: none;
+    width: 100%;
+}
+
+.navigationContainer li {
+    width: 100%;
+    padding: 15px ;
+    border-top: 1px solid var(--font-color);
+}
+
+.navigationContainer li .navlink {
+    color: var(--font-color);
+    font-weight: 500;
+}
+
+.navigationContainer li .navlink:hover {
+    color: #fff;
+}
+
+
+.active {
+    color: var(--selection-color);
+    font-weight: 500;
+}
+
+.socialMediaContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    border-top: 1px solid var(--font-color);
+}
+
+.socialMediaIcons {
+    color: var(--font-color);
+    width: 23px;
+    height: 23px;
+    padding: 0px 5px;
+}
+
+.socialMediaIcons:hover {
+    color: #fff;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .navigationContainer li {
+        border-top: none;
+        height: 10vh;
+    }
+
+    .navigationContainer li .navlink, .active {
+        padding: 10px;
+        font-size: 19px;
+    }
+
+    .socialMediaIcons {
+        width: 30px;
+        height: 30px;
+        padding: 10px 20px;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 769px) {
+    .sidebar {
+        position: fixed;
+        width: 140px; 
+        max-width: 300px;
+    }
+}
+
+
+@media only screen and (min-width: 1550px) {
+
+    .logoContainer {
+        padding: 50px 0px;
+    }
+
+    .navigationContainer li {
+        padding: 20px ;
+    }
+    
+}

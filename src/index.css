@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Ubuntu";
+    font-weight: 400;
+    src: url(assets/fonts/Ubuntu-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: "Ubuntu";
+    font-weight: 500;
+    src: url(assets/fonts/Ubuntu-Medium.ttf) format('truetype');
+}
+@font-face {
+    font-family: "Ubuntu";
+    font-weight: 700;
+    src: url(assets/fonts/Ubuntu-Bold.ttf) format('truetype');
+}
+
+:root {
+    /* primaries colors */
+    --background-color: #1F1F1F;
+    --sidebar-color: #161616;
+    /* --font-color: #595959; */
+    --font-color: #6F6F69;
+    --selection-color: #0091EB;
+    --shadow-color: #EC2ACE;
+
+    /* fonts */
+    --main-font: "Ubuntu"; /* Weights: 400, 500, 700 */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--main-font);
+    text-decoration: none;
+}
+
+html {
+    background-color: var(--background-color);
+}
+
+::-webkit-scrollbar {
+    background-color: var(--background-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--font-color);
+}

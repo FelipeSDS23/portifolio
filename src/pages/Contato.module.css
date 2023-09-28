@@ -1,0 +1,74 @@
+.contatoContainer {
+    background-color: var(--background-color);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 7% 10% ;
+    /* background-color: aqua; */
+}
+
+.contatoContainer h2 {
+    font-weight: 700;
+    font-size: 2.4em;
+    margin: 50px 0px;
+    color: #fff;
+    text-align: left;
+    width: 100%;
+    /* background-color: burlywood; */
+    /* padding: 0px 30px; */
+}
+
+.contatoContainer h2 span {
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: var(--selection-color);
+    text-shadow: -6px 0px 0px var(--shadow-color);
+    padding-left: 10px;
+    margin-bottom: -15px;
+}
+
+.contatos {
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+.contatosLista {
+    list-style-type: none;
+}
+
+.contatosLista li {
+    height: 40px;
+}
+
+.contatosLista li .iconeContato {
+    width: 25px;
+    height: 25px;
+    color: var(--font-color);
+}
+
+.contatosLista span {
+    color: #fff;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.contatosLista li:hover .iconeContato {
+    color: #fff;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+    .contatoContainer h2 {
+        font-size: 1.7em;
+        margin: 50px 0px;
+        text-align: left;
+    }
+
+    .contatosLista li {
+        height: 55px;
+    }
+
+}
