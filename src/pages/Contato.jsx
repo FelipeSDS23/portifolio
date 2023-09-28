@@ -36,7 +36,7 @@ const Contato = () => {
             </Link>
           </li>
           <li>
-            <Link to="https://web.whatsapp.com/send?phone=5531995731315" target='_blank'>
+            <Link to="https://wa.me/5531995731315" target='_blank'>
               <FontAwesomeIcon icon={faSquareWhatsapp} className={styles.iconeContato} />
               <span>WhatsApp</span>
             </Link>
