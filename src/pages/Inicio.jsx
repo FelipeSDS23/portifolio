@@ -11,7 +11,7 @@ const Inicio = () => {
         Desenvolvedor Web
       </h2>
 
-      <NavLink to="/contato" >
+      <NavLink to="/portifolio/contato" >
         <button className={styles.btnContato}>
           Entre em contato!
         </button>

@@ -2,7 +2,7 @@
 import { useEffect, useRef } from 'react';
 
 // react router
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Outlet } from 'react-router-dom';
 
 // styles
 import './App.css'
@@ -68,20 +68,21 @@ function App() {
       <FontAwesomeIcon icon={faBars} className='bars-menu' ref={barsMenu} onClick={showHideMenu} />
       <FontAwesomeIcon icon={faXmark} className='close-bars-menu' ref={closeBarsMenu} onClick={showHideMenu} />
 
-      <BrowserRouter>
+      {/* <BrowserRouter> */}
         <div className='sidebar-container' ref={sidebar} style={innerWidth >= 769 ? { display: "block" } : { display: "none" }}>
           <Sidebar showHideMenu = {showHideMenu} />
         </div>
         <div className='content-container' ref={contentContainer}>
-          <Routes>
+          {/* <Routes>
             <Route path='/' element={<Inicio />} />
             <Route path='/sobre' element={<Sobre />} />
             <Route path='/habilidades' element={<Habilidades />} />
             <Route path='/projetos' element={<Projetos />} />
             <Route path='/contato' element={<Contato />} />
-          </Routes>
+          </Routes> */}
+          <Outlet />
         </div>
-      </BrowserRouter>
+      {/* </BrowserRouter> */}
     </div>
   )
 }
