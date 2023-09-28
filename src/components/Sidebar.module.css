@@ -1,6 +1,6 @@
 .sidebar {
     background-color: var(--sidebar-color);
-    height: 100vh;
+    height: 100dvh;
     max-height: 1000px;
 }
 
@@ -94,7 +94,7 @@
 
     .navigationContainer li {
         border-top: none;
-        height: 10vh;
+        height: 10dvh;
     }
 
     .navigationContainer li .navlink, .active {

@@ -66,12 +66,12 @@
 
     .sidebar-container {
         width: 100vw;
-        height: 100vh;
+        height: 100dvh;
     }
 
     .content-container {
         width: 100vw;
-        height: 100vh;
+        height: 100dvh;
 
         background-color: var(--background-color);
     }
