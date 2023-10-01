@@ -10,6 +10,7 @@ import landingPage from "..//assets/images/projects/landing-page.png"
 import timer from "..//assets/images/projects/timer.png"
 import customText from "..//assets/images/projects/custom-text.png"
 import myCityApp from "..//assets/images/projects/my-city-app.png"
+import imovi from "..//assets/images/projects/imovi.png"
 
 
 const Projetos = () => {
@@ -42,6 +43,15 @@ const Projetos = () => {
             <img src={weather} alt="Weather App" />
             <div className={styles.intro}>
                 <h3>Weather App</h3>
+                <p>Lorem ipsum dolor sit amet cantium laboriosam velit odio magnam. Animi quidem qui in nemo ut sed atque officiis veniam quasi vitae.</p>
+            </div>
+          </Link>
+        </div>
+        <div className={styles.gridCard}>
+          <Link to={"https://felipesds23.github.io/IMOVI/"} target="_blank">
+            <img src={imovi} alt="IMOVI page" />
+            <div className={styles.intro}>
+                <h3>iMovi Page</h3>
                 <p>Lorem ipsum dolor sit amet cantium laboriosam velit odio magnam. Animi quidem qui in nemo ut sed atque officiis veniam quasi vitae.</p>
             </div>
           </Link>
