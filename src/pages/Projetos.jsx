@@ -25,7 +25,7 @@ const Projetos = () => {
             <img src={multiStepForm} alt="Multi Step Form" />
             <div className={styles.intro}>
                 <h3>Multi Step Form</h3>
-                <p>Lorem ipsum dolor sit amet cantium laboriosam velit odio magnam. Animi quidem qui in nemo ut sed atque officiis veniam quasi vitae.</p>
+                {/* <p>Lorem ipsum dolor sit amet cantium laboriosam velit odio magnam. Animi quidem qui in nemo ut sed atque officiis veniam quasi vitae.</p> */}
             </div>
           </Link>
         </div>
@@ -33,8 +33,8 @@ const Projetos = () => {
           <Link to={"https://felipesds23.github.io/Movie-Search-App/"} target="_blank">
             <img src={movieDatabase} alt="Aplicativo de Filmes" />
             <div className={styles.intro}>
-                <h3>Filmes App</h3>
-                <p>Lorem ipsum dolor sit amet cantium laboriosam velit odio magnam. Animi quidem qui in nemo ut sed atque officiis veniam quasi vitae.</p>
+                <h3>Movie App</h3>
+                {/* <p>Lorem ipsum dolor sit amet cantium laboriosam velit odio magnam. Animi quidem qui in nemo ut sed atque officiis veniam quasi vitae.</p> */}
             </div>
           </Link>
         </div>
@@ -43,7 +43,7 @@ const Projetos = () => {
             <img src={weather} alt="Weather App" />
             <div className={styles.intro}>
                 <h3>Weather App</h3>
-                <p>Lorem ipsum dolor sit amet cantium laboriosam velit odio magnam. Animi quidem qui in nemo ut sed atque officiis veniam quasi vitae.</p>
+                {/* <p>Lorem ipsum dolor sit amet cantium laboriosam velit odio magnam. Animi quidem qui in nemo ut sed atque officiis veniam quasi vitae.</p> */}
             </div>
           </Link>
         </div>
@@ -52,7 +52,7 @@ const Projetos = () => {
             <img src={imovi} alt="IMOVI page" />
             <div className={styles.intro}>
                 <h3>iMovi Page</h3>
-                <p>Lorem ipsum dolor sit amet cantium laboriosam velit odio magnam. Animi quidem qui in nemo ut sed atque officiis veniam quasi vitae.</p>
+                {/* <p>Lorem ipsum dolor sit amet cantium laboriosam velit odio magnam. Animi quidem qui in nemo ut sed atque officiis veniam quasi vitae.</p> */}
             </div>
           </Link>
         </div>
@@ -61,7 +61,7 @@ const Projetos = () => {
             <img src={ageCalculator} alt="Age Calculator" />
             <div className={styles.intro}>
                 <h3>Age Calculator</h3>
-                <p>Lorem ipsum dolor sit amet cantium laboriosam velit odio magnam. Animi quidem qui in nemo ut sed atque officiis veniam quasi vitae.</p>
+                {/* <p>Lorem ipsum dolor sit amet cantium laboriosam velit odio magnam. Animi quidem qui in nemo ut sed atque officiis veniam quasi vitae.</p> */}
             </div>
           </Link>
         </div>
@@ -70,7 +70,7 @@ const Projetos = () => {
             <img src={landingPage} alt="Landing Page" />
             <div className={styles.intro}>
                 <h3>Landing Page</h3>
-                <p>Lorem ipsum dolor sit amet cantium laboriosam velit odio magnam. Animi quidem qui in nemo ut sed atque officiis veniam quasi vitae.</p>
+                {/* <p>Lorem ipsum dolor sit amet cantium laboriosam velit odio magnam. Animi quidem qui in nemo ut sed atque officiis veniam quasi vitae.</p> */}
             </div>
           </Link>
         </div>
@@ -79,7 +79,7 @@ const Projetos = () => {
             <img src={timer} alt="Timer" />
             <div className={styles.intro}>
                 <h3>Timer</h3>
-                <p>Lorem ipsum dolor sit amet cantium laboriosam velit odio magnam. Animi quidem qui in nemo ut sed atque officiis veniam quasi vitae.</p>
+                {/* <p>Lorem ipsum dolor sit amet cantium laboriosam velit odio magnam. Animi quidem qui in nemo ut sed atque officiis veniam quasi vitae.</p> */}
             </div>
           </Link>
         </div>
@@ -88,7 +88,7 @@ const Projetos = () => {
             <img src={customText} alt="Conversor de texto" />
             <div className={styles.intro}>
                 <h3>Conversor de texto</h3>
-                <p>Lorem ipsum dolor sit amet cantium laboriosam velit odio magnam. Animi quidem qui in nemo ut sed atque officiis veniam quasi vitae.</p>
+                {/* <p>Lorem ipsum dolor sit amet cantium laboriosam velit odio magnam. Animi quidem qui in nemo ut sed atque officiis veniam quasi vitae.</p> */}
             </div>
           </Link>
         </div>
@@ -97,7 +97,7 @@ const Projetos = () => {
             <img src={myCityApp} alt="My City App" />
             <div className={styles.intro}>
                 <h3>My City App</h3>
-                <p>Lorem ipsum dolor sit amet cantium laboriosam velit odio magnam. Animi quidem qui in nemo ut sed atque officiis veniam quasi vitae.</p>
+                {/* <p>Lorem ipsum dolor sit amet cantium laboriosam velit odio magnam. Animi quidem qui in nemo ut sed atque officiis veniam quasi vitae.</p> */}
             </div>
           </Link>
         </div>

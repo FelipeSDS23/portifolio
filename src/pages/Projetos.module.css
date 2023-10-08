@@ -52,6 +52,7 @@
     background-color: rgb(27, 27, 27, .6);
     color: #fff;
     padding: 5px 10px;
+    width: 100%;
 }
 
 .containerGrid .gridCard .intro h3 {
