@@ -1,6 +1,6 @@
 import styles from "./Sobre.module.css"
 // images
-import profilePhoto from "../assets/images/profile/profile-photo.png"
+import profilePhoto from "../assets/images/profile/profile-photo.jpg"
 
 const Sobre = () => {
   return (
