@@ -8,6 +8,11 @@ import { faSquareJs } from "@fortawesome/free-brands-svg-icons"
 import { faReact } from "@fortawesome/free-brands-svg-icons"
 import { faGitAlt } from "@fortawesome/free-brands-svg-icons"
 import { faNodeJs } from "@fortawesome/free-brands-svg-icons"
+import { faPhp } from "@fortawesome/free-brands-svg-icons"
+import { faDatabase } from "@fortawesome/free-solid-svg-icons" 
+
+// images
+// import typescript from "../assets/images/typescript_logo/typescript.png"
 
 const Habilidades = () => {
   return (
@@ -30,6 +35,10 @@ const Habilidades = () => {
           <FontAwesomeIcon icon={faSquareJs} className={styles.tecIcone} style={{ color: "#DAB92D" }} />
           <p>JAVASCRIPT</p>
         </div>
+        {/* <div className={styles.gridCard}>
+          <img src={typescript}  />
+          <p>TYPESCRIPT</p>
+        </div> */}
         <div className={styles.gridCard}>
           <FontAwesomeIcon icon={faReact} className={styles.tecIcone} style={{ color: "#80DEEA" }} />
           <p>REACT</p>
@@ -37,6 +46,14 @@ const Habilidades = () => {
         <div className={styles.gridCard}>
           <FontAwesomeIcon icon={faGitAlt} className={styles.tecIcone} style={{ color: "#F4511E" }} />
           <p>GIT</p>
+        </div>
+        <div className={styles.gridCard}>
+          <FontAwesomeIcon icon={faPhp} className={styles.tecIcone} style={{ color: "#7377AD" }} />
+          <p>PHP</p>
+        </div>
+        <div className={styles.gridCard}>
+          <FontAwesomeIcon icon={faDatabase} className={styles.tecIcone} style={{ color: "#2375BA" }} />
+          <p>SQL</p>
         </div>
         <div className={styles.gridCard}>
           <FontAwesomeIcon icon={faNodeJs} className={styles.tecIcone} style={{ color: "#8CC84B" }} />
