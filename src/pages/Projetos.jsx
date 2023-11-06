@@ -15,7 +15,7 @@ import imovi from "..//assets/images/projects/imovi.png"
 
 const Projetos = () => {
   return (
-    <section className={styles.projetosContainer}>
+    <section className={styles.projetosContainer} id="projetos">
       <h2>Veja alguns dos meus últimos <span>P</span>rojetos</h2>
 
       <div className={styles.containerGrid}>

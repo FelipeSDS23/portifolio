@@ -15,28 +15,28 @@ const router = createBrowserRouter([
   {
     path: "/portifolio/",
     element: <App/>,
-    children: [
-      {
-        path: "/portifolio/",
-        element: <Inicio/>
-      },
-      {
-        path: "/portifolio/sobre",
-        element: <Sobre/>
-      },
-      {
-        path: "/portifolio/habilidades",
-        element: <Habilidades/>
-      },
-      {
-        path: "/portifolio/projetos",
-        element: <Projetos/>
-      },
-      {
-        path: "/portifolio/contato",
-        element: <Contato/>
-      },
-    ]
+    // children: [
+    //   {
+    //     path: "/portifolio/",
+    //     element: <Inicio/>
+    //   },
+    //   {
+    //     path: "/portifolio/sobre",
+    //     element: <Sobre/>
+    //   },
+    //   {
+    //     path: "/portifolio/habilidades",
+    //     element: <Habilidades/>
+    //   },
+    //   {
+    //     path: "/portifolio/projetos",
+    //     element: <Projetos/>
+    //   },
+    //   {
+    //     path: "/portifolio/contato",
+    //     element: <Contato/>
+    //   },
+    // ]
   }
 ])
 

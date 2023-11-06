@@ -4,7 +4,7 @@ import profilePhoto from "../assets/images/profile/profile-photo.jpg"
 
 const Sobre = () => {
   return (
-    <div className={styles.sobreContainer}>
+    <div className={styles.sobreContainer} id="sobre">
 
       <h2><span>F</span>elipe Silva</h2>
 

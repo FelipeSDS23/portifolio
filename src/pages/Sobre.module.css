@@ -44,8 +44,13 @@
     /* width: 320px;
     height: 300px;
     border-radius: 50%; */
-    width: 320px;
-    height: 370px;
+
+    min-width: 200px;
+    min-height: 250px;
+    max-width: 320px;
+    max-height: 370px;
+
+    width: 100%;
 }
 
 .paragrafoContainer {
@@ -60,7 +65,7 @@
     color: #fff;
     font-weight: 400;
     line-height: 1.3em;
-    text-align: justify;
+    text-align: left;
 }
 
 /* Medium devices (landscape tablets, 768px and up) */

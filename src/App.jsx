@@ -73,6 +73,11 @@ function App() {
           <Sidebar showHideMenu = {showHideMenu} />
         </div>
         <div className='content-container' ref={contentContainer}>
+          <Inicio />
+          <Sobre />
+          <Habilidades />
+          <Projetos />
+          <Contato />
           {/* <Routes>
             <Route path='/' element={<Inicio />} />
             <Route path='/sobre' element={<Sobre />} />
@@ -80,7 +85,7 @@ function App() {
             <Route path='/projetos' element={<Projetos />} />
             <Route path='/contato' element={<Contato />} />
           </Routes> */}
-          <Outlet />
+          {/* <Outlet /> */}
         </div>
       {/* </BrowserRouter> */}
     </div>

@@ -14,7 +14,7 @@ import { faSquareFacebook } from "@fortawesome/free-brands-svg-icons"
 
 const Contato = () => {
   return (
-    <div className={styles.contatoContainer}>
+    <div className={styles.contatoContainer} id="contato">
 
       <h2>
         Estou disponível para novos projetos.<br />

@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 const Inicio = () => {
   return (
-    <div className={styles.inicioContainer}>
+    <div className={styles.inicioContainer} id="inicio">
 
       <h2>
         Olá,<br />

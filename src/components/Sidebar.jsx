@@ -1,5 +1,6 @@
 import styles from './Sidebar.module.css'
-import { NavLink, Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
+import { Link } from 'react-scroll'
 
 // font awesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -10,10 +11,18 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 const Sidebar = ({ showHideMenu }) => {
 
-  const hideMobileMenu = () => {
+  const hideMobileMenu = (e) => {
     if (innerWidth <= 768) {
       showHideMenu()
     }
+
+  // Deixa opção de navegação destacada
+  const ul = (e.target.parentNode.parentNode);
+  ul.childNodes.forEach(li => {
+    li.firstChild.style.color = "var(--font-color)";
+  });
+  e.target.style.color = "var(--selection-color)";
+
   }
 
   return (
@@ -25,23 +34,31 @@ const Sidebar = ({ showHideMenu }) => {
       </div>
       <nav className={styles.navigationContainer}>
         <ul>
+          <li><Link to="inicio" spy={true} smooth={true} offset={50} duration={500} onClick={hideMobileMenu} className={styles.navlink} >Início</Link></li>
+          <li><Link to="sobre" spy={true} smooth={true} offset={50} duration={500} onClick={hideMobileMenu} className={styles.navlink} >Sobre</Link></li>
+          <li><Link to="habilidades" spy={true} smooth={true} offset={50} duration={500} onClick={hideMobileMenu} className={styles.navlink} >Habilidades</Link></li>
+          <li><Link to="projetos" spy={true} smooth={true} offset={50} duration={500} onClick={hideMobileMenu} className={styles.navlink} >Projetos</Link></li>
+          <li><Link to="contato" spy={true} smooth={true} offset={50} duration={500} onClick={hideMobileMenu} className={styles.navlink} >Contato</Link></li>
+          {/* <li><Link to="/portifolio/contato" className={({ isActive }) => (isActive ? styles.active : styles.navlink)} onClick={hideMobileMenu}>Contato</Link></li> */}
+        </ul>
+        {/* <ul>
           <li><NavLink to="/portifolio/" className={({ isActive }) => (isActive ? styles.active : styles.navlink)} onClick={hideMobileMenu}>Início</NavLink></li>
           <li><NavLink to="/portifolio/sobre" className={({ isActive }) => (isActive ? styles.active : styles.navlink)} onClick={hideMobileMenu}>Sobre</NavLink></li>
           <li><NavLink to="/portifolio/habilidades" className={({ isActive }) => (isActive ? styles.active : styles.navlink)} onClick={hideMobileMenu}>Habilidades</NavLink></li>
           <li><NavLink to="/portifolio/projetos" className={({ isActive }) => (isActive ? styles.active : styles.navlink)} onClick={hideMobileMenu}>Projetos</NavLink></li>
           <li><NavLink to="/portifolio/contato" className={({ isActive }) => (isActive ? styles.active : styles.navlink)} onClick={hideMobileMenu}>Contato</NavLink></li>
-        </ul>
+        </ul> */}
       </nav>
       <div className={styles.socialMediaContainer}>
-        <Link to="https://www.linkedin.com/in/felipe-santos-7296b8213/" target='_blank'>
+        <NavLink to="https://www.linkedin.com/in/felipe-santos-7296b8213/" target='_blank'>
           <FontAwesomeIcon icon={faLinkedinIn} className={styles.socialMediaIcons} />
-        </Link>
-        <Link to="https://github.com/FelipeSDS23" target='_blank'>
+        </NavLink>
+        <NavLink to="https://github.com/FelipeSDS23" target='_blank'>
           <FontAwesomeIcon icon={faGithub} className={styles.socialMediaIcons} />
-        </Link>
-        <Link to="https://www.instagram.com/felipe_sds_/" target='_blank'>
+        </NavLink>
+        <NavLink to="https://www.instagram.com/felipe_sds_/" target='_blank'>
           <FontAwesomeIcon icon={faInstagram} className={styles.socialMediaIcons} />
-        </Link>
+        </NavLink>
       </div>
     </div>
   )

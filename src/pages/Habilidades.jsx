@@ -16,7 +16,7 @@ import { faDatabase } from "@fortawesome/free-solid-svg-icons"
 
 const Habilidades = () => {
   return (
-    <div className={styles.habilidadesContainer}>
+    <div className={styles.habilidadesContainer} id="habilidades">
 
       <h2>Minhas <span>H</span>abilidades</h2>
 
