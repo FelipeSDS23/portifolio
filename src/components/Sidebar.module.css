@@ -66,11 +66,10 @@
     color: #fff;
 }
 
-
-.active {
+/* .active {
     color: var(--selection-color);
     font-weight: 500;
-}
+} */
 
 .socialMediaContainer {
     display: flex;
@@ -85,6 +84,7 @@
     width: 23px;
     height: 23px;
     padding: 0px 5px;
+    transition: .5s;
 }
 
 .socialMediaIcons:hover {
