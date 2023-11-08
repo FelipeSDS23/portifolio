@@ -19,7 +19,7 @@
     --background-color: #1F1F1F;
     --sidebar-color: #161616;
     /* --font-color: #595959; */
-    --font-color: #6F6F69;
+    --font-color: #7F7F7A;
     --selection-color: #0091EB;
     --shadow-color: #EC2ACE;
 
@@ -44,5 +44,6 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: var(--font-color);
+    background-color: var(--selection-color);
 }
+

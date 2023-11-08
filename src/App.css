@@ -9,14 +9,14 @@
 .sidebar-container {
     width: 140px;
     height: 100%;
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 .content-container {
     width: calc(100% - 140px);
     height: 100%;
 
-    background-color: green;
+    /* background-color: green; */
 }
 
 .bars-menu {

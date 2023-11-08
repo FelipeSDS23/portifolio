@@ -1,3 +1,13 @@
+.displayFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-right: 15%; */
+    max-width: 900px;
+    width: 100%;
+    min-width: 800px;
+}
+
 .inicioContainer {
     background-color: var(--background-color);
     width: 100%;
@@ -5,14 +15,14 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    padding: 11% 10% ;
+    padding: 11% 4% ;
     /* background-color: aqua; */
 }
 
 .inicioContainer h2 {
     font-weight: 700;
     font-size: 3.3em;
-    margin: 50px 0px;
+    margin: 50px 50px;
     color: #fff;
     text-align: left;
     width: 100%;
@@ -39,6 +49,8 @@
     color: var(--selection-color);
     cursor: pointer;
     font-weight: 400;
+    margin: 0px 50px;
+    transition: .5s;
 }
 
 .btnContato:hover {
@@ -59,6 +71,10 @@
         font-size: 3.0em;
         margin: 90px 0px;
         text-align: left;
+    }
+
+    .cubeContainer {
+        display: none;
     }
 
 }

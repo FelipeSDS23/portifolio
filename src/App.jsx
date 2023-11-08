@@ -21,6 +21,7 @@ import Inicio from './pages/Inicio'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { faXmark } from '@fortawesome/free-solid-svg-icons';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -78,6 +79,7 @@ function App() {
           <Habilidades />
           <Projetos />
           <Contato />
+          <Footer />
           {/* <Routes>
             <Route path='/' element={<Inicio />} />
             <Route path='/sobre' element={<Sobre />} />

@@ -1,0 +1,7 @@
+footer {
+    color: #fff;
+    background-color: var(--sidebar-color);
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+}

@@ -59,6 +59,7 @@
     color: var(--font-color);
     font-weight: 500;
     cursor: pointer;
+    transition: .5s;
 }
 
 .navigationContainer li .navlink:hover {
