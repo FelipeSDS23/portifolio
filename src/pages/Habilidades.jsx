@@ -128,6 +128,15 @@ const Habilidades = () => {
           <span className={styles.periodo}>10h / 2023</span>
         </div>
 
+        <div className={styles.gridCard}>
+          <span className={styles.tipoDeCurso}>Curso</span>
+          <p>
+            <span className={styles.nomeDoCurso}>PHP</span><br />
+            <span className={styles.instituicao}>Udemy</span>
+          </p>
+          <span className={styles.periodo}>33h / 2023</span>
+        </div>
+
       </div>
 
     </div>
