@@ -16,6 +16,7 @@
     align-items: flex-start;
     justify-content: center;
     padding: 11% 4% ;
+    padding-left: 18vw;
     /* background-color: aqua; */
 }
 
@@ -58,6 +59,9 @@
     color: var(--background-color);
 }
 
+.cubeContainer {
+    margin-left: 5vw;
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
@@ -69,6 +73,7 @@
     .inicioContainer {
         align-items: center;
         padding: 10px;
+        padding-left: 0;
     }
 
     .inicioContainer h2 {
