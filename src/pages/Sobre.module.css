@@ -3,9 +3,9 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
-    padding: 6% 0% 0% 15%;
+    /* padding: 6% 0% 0% 0%; */
     /* background-color: aqua; */
 }
 
@@ -16,6 +16,9 @@
     color: #fff;
     text-align: left;
     width: 100%;
+    /* background-color: red; */
+    text-align: center;
+    padding-top: 40px;
 }
 
 .sobreContainer h2 span {
@@ -23,8 +26,8 @@
     font-weight: bolder;
     color: var(--selection-color);
     text-shadow: -6px 0px 0px var(--shadow-color);
-    padding-left: 10px;
-    margin-bottom: -15px;
+    /* padding-left: 10px;
+    margin-bottom: -15px; */
 }
 
 .imgParagrafoContainer {
@@ -32,8 +35,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 85%;
-    max-width: 900px;
+    width: 65%;
+    /* max-width: 900px; */
 }
 
 .imgContainer {
@@ -45,8 +48,8 @@
     height: 300px;
     border-radius: 50%; */
 
-    min-width: 200px;
-    min-height: 250px;
+    min-width: 250px;
+    min-height: 300px;
     max-width: 320px;
     max-height: 370px;
 
@@ -55,24 +58,25 @@
 
 .paragrafoContainer {
     margin-top: 0px;
-    margin-left: 40px;
+    margin-left: 50px;
 }
 
 .paragrafoContainer p {
-    max-width: 450px;
+    max-width: 700px;
     margin-top: 20px;
     font-size: 1.1em;
     color: #fff;
     font-weight: 400;
-    line-height: 1.3em;
+    line-height: 1.8em;
     text-align: left;
     min-width: 310px;
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1168px) {
 
     .sobreContainer h2 {
+        padding-top: 10px;
         margin-top: 40px;
         margin-bottom: 30px;
         text-align: center;

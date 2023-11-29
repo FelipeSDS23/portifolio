@@ -66,10 +66,10 @@
     color: #fff;
 }
 
-/* .active {
+.active {
     color: var(--selection-color);
     font-weight: 500;
-} */
+}
 
 .socialMediaContainer {
     display: flex;

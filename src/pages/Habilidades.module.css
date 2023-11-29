@@ -168,6 +168,10 @@ h3 {
         animation: none;
     }
 
+    .cursosContainerGrid {
+        grid-template-columns: repeat(auto-fill, 100%);
+    }
+
     .cursosContainerGrid .gridCard:nth-child(1) {
         /* background-color: blueviolet; */
         grid-column-start: 1;

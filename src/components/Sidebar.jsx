@@ -23,7 +23,8 @@ const Sidebar = ({ showHideMenu }) => {
   });
   e.target.style.color = "var(--selection-color)";
 
-  }
+  } 
+
 
   return (
     <div className={styles.sidebar}>
