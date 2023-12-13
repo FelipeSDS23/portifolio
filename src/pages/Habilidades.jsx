@@ -137,6 +137,15 @@ const Habilidades = () => {
           <span className={styles.periodo}>33h / 2023</span>
         </div>
 
+        <div className={styles.gridCard}>
+          <span className={styles.tipoDeCurso}>Curso</span>
+          <p>
+            <span className={styles.nomeDoCurso}>Programação orientada a objetos</span><br />
+            <span className={styles.instituicao}>Curso em Vídeo</span>
+          </p>
+          <span className={styles.periodo}>40h / 2023</span>
+        </div>
+
       </div>
 
     </div>
