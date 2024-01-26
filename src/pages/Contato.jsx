@@ -29,18 +29,18 @@ const Contato = () => {
               <span>felipe03san@gmail.com</span>
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="tel:+5531995731315" target='_blank'>
               <FontAwesomeIcon icon={faSquarePhone} className={styles.iconeContato} />
               <span>+55 31 99573-1315</span>
             </Link>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <Link to="https://wa.me/5531995731315" target='_blank'>
               <FontAwesomeIcon icon={faSquareWhatsapp} className={styles.iconeContato} />
               <span>WhatsApp</span>
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link to="https://www.linkedin.com/in/felipe-santos-7296b8213/" target='_blank'>
               <FontAwesomeIcon icon={faLinkedin} className={styles.iconeContato} />
