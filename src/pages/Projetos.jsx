@@ -2,6 +2,8 @@ import styles from "./Projetos.module.css"
 import { Link } from 'react-router-dom'
 
 // images
+import GetAPet from "../assets/images/projects/get-a-pet.png"
+import projetoToughts from "../assets/images/projects/projeto-toughts.png"
 import movieDatabase from "../assets/images/projects/movie-database.png"
 import multiStepForm from "../assets/images/projects/multi-step-form.png"
 import weather from "..//assets/images/projects/weather-app.png"
@@ -20,6 +22,24 @@ const Projetos = () => {
 
       <div className={styles.containerGrid}>
 
+      <div className={styles.gridCard}>
+          <Link to={"https://github.com/FelipeSDS23/Get-A-Pet"} target="_blank">
+            <img src={GetAPet} alt="Toughts" />
+            <div className={styles.intro}>
+                <h3>Get A Pet</h3>
+                {/* <p>Lorem ipsum dolor sit amet cantium laboriosam velit odio magnam. Animi quidem qui in nemo ut sed atque officiis veniam quasi vitae.</p> */}
+            </div>
+          </Link>
+        </div>
+        <div className={styles.gridCard}>
+          <Link to={"https://github.com/FelipeSDS23/Projeto-Toughts"} target="_blank">
+            <img src={projetoToughts} alt="Toughts" />
+            <div className={styles.intro}>
+                <h3>Projeto Toughts</h3>
+                {/* <p>Lorem ipsum dolor sit amet cantium laboriosam velit odio magnam. Animi quidem qui in nemo ut sed atque officiis veniam quasi vitae.</p> */}
+            </div>
+          </Link>
+        </div>
         <div className={styles.gridCard}>
           <Link to={"https://felipesds23.github.io/multi-step-form/"} target="_blank">
             <img src={multiStepForm} alt="Multi Step Form" />
@@ -75,34 +95,15 @@ const Projetos = () => {
           </Link>
         </div>
         <div className={styles.gridCard}>
-          <Link to={"https://felipesds23.github.io/Timer/"} target="_blank">
-            <img src={timer} alt="Timer" />
-            <div className={styles.intro}>
-                <h3>Timer</h3>
-                {/* <p>Lorem ipsum dolor sit amet cantium laboriosam velit odio magnam. Animi quidem qui in nemo ut sed atque officiis veniam quasi vitae.</p> */}
-            </div>
-          </Link>
-        </div>
-        <div className={styles.gridCard}>
           <Link to={"https://felipesds23.github.io/Case-Converter/"} target="_blank">
             <img src={customText} alt="Conversor de texto" />
             <div className={styles.intro}>
-                <h3>Conversor de texto</h3>
+                <h3>Custom text</h3>
                 {/* <p>Lorem ipsum dolor sit amet cantium laboriosam velit odio magnam. Animi quidem qui in nemo ut sed atque officiis veniam quasi vitae.</p> */}
             </div>
           </Link>
         </div>
-        <div className={styles.gridCard}>
-          <Link to={"https://felipesds23.github.io/Projeto-da-faculdade/"} target="_blank">
-            <img src={myCityApp} alt="My City App" />
-            <div className={styles.intro}>
-                <h3>My City App</h3>
-                {/* <p>Lorem ipsum dolor sit amet cantium laboriosam velit odio magnam. Animi quidem qui in nemo ut sed atque officiis veniam quasi vitae.</p> */}
-            </div>
-          </Link>
-        </div>
-        
-
+ 
       </div>
     </section>
   )

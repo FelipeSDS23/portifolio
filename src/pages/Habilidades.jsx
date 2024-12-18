@@ -1,6 +1,8 @@
 import styles from "./Habilidades.module.css"
 
 // font awesome
+import mysql from '../assets/images/logos/mysql.png'
+import mongoDb from '../assets/images/logos/mongodb.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHtml5 } from "@fortawesome/free-brands-svg-icons"
 import { faCss3Alt } from "@fortawesome/free-brands-svg-icons"
@@ -23,6 +25,7 @@ const Habilidades = () => {
       <h3>Tecnologias</h3>
 
       <div className={styles.tecnologiasContainerGrid}>
+        
         <div className={styles.gridCard}>
           <FontAwesomeIcon icon={faHtml5} className={styles.tecIcone} style={{ color: "#E65100" }} />
           <p>HTML5</p>
@@ -35,30 +38,35 @@ const Habilidades = () => {
           <FontAwesomeIcon icon={faSquareJs} className={styles.tecIcone} style={{ color: "#DAB92D" }} />
           <p>JAVASCRIPT</p>
         </div>
-        {/* <div className={styles.gridCard}>
-          <img src={typescript}  />
-          <p>TYPESCRIPT</p>
-        </div> */}
         <div className={styles.gridCard}>
           <FontAwesomeIcon icon={faReact} className={styles.tecIcone} style={{ color: "#80DEEA" }} />
           <p>REACT</p>
-        </div>
-        <div className={styles.gridCard}>
-          <FontAwesomeIcon icon={faGitAlt} className={styles.tecIcone} style={{ color: "#F4511E" }} />
-          <p>GIT</p>
         </div>
         <div className={styles.gridCard}>
           <FontAwesomeIcon icon={faPhp} className={styles.tecIcone} style={{ color: "#7377AD" }} />
           <p>PHP</p>
         </div>
         <div className={styles.gridCard}>
+          <FontAwesomeIcon icon={faNodeJs} className={styles.tecIcone} style={{ color: "#8CC84B" }} />
+          <p>NODE JS</p>
+        </div>
+        <div className={styles.gridCard}>
           <FontAwesomeIcon icon={faDatabase} className={styles.tecIcone} style={{ color: "#2375BA" }} />
           <p>SQL</p>
         </div>
         <div className={styles.gridCard}>
-          <FontAwesomeIcon icon={faNodeJs} className={styles.tecIcone} style={{ color: "#8CC84B" }} />
-          <p>NODE JS</p>
+          <img src={mysql} className={styles.tecIcone} />
+          <p>MY SQL</p>
         </div>
+        <div className={styles.gridCard}>
+          <img src={mongoDb} className={styles.tecIcone} />
+          <p>MONGO DB</p>
+        </div>
+        <div className={styles.gridCard}>
+          <FontAwesomeIcon icon={faGitAlt} className={styles.tecIcone} style={{ color: "#F4511E" }} />
+          <p>GIT</p>
+        </div>
+
       </div>
 
       <h3>Cursos e formação</h3>
@@ -72,6 +80,15 @@ const Habilidades = () => {
             <span className={styles.instituicao}>- Centro Universitário Internacional (Uninter)</span>
           </p>
           <span className={styles.periodo}>2022 - 2024</span>
+        </div>
+
+        <div className={styles.gridCard}>
+          <span className={styles.tipoDeCurso}>Curso</span>
+          <p>
+            <span className={styles.nomeDoCurso}>Node.js</span><br />
+            <span className={styles.instituicao}>Udemy</span>
+          </p>
+          <span className={styles.periodo}>38h / 2024</span>
         </div>
 
         <div className={styles.gridCard}>
