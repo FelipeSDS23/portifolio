@@ -13,6 +13,7 @@ import timer from "..//assets/images/projects/timer.png"
 import customText from "..//assets/images/projects/custom-text.png"
 import myCityApp from "..//assets/images/projects/my-city-app.png"
 import imovi from "..//assets/images/projects/imovi.png"
+import quadrosEquadros from "..//assets/images/projects/quadrosEquadros.png"
 
 
 const Projetos = () => {
@@ -23,8 +24,17 @@ const Projetos = () => {
       <div className={styles.containerGrid}>
 
       <div className={styles.gridCard}>
+          <Link to={"https://github.com/FelipeSDS23/Painting-sales-website"} target="_blank">
+            <img src={quadrosEquadros} alt="quadrosEquadros" />
+            <div className={styles.intro}>
+                <h3>Quadros&quadros <br/> (Em desenvolvimento)</h3>
+                {/* <p>Lorem ipsum dolor sit amet cantium laboriosam velit odio magnam. Animi quidem qui in nemo ut sed atque officiis veniam quasi vitae.</p> */}
+            </div>
+          </Link>
+      </div>
+      <div className={styles.gridCard}>
           <Link to={"https://github.com/FelipeSDS23/Get-A-Pet"} target="_blank">
-            <img src={GetAPet} alt="Toughts" />
+            <img src={GetAPet} alt="GetAPet" />
             <div className={styles.intro}>
                 <h3>Get A Pet</h3>
                 {/* <p>Lorem ipsum dolor sit amet cantium laboriosam velit odio magnam. Animi quidem qui in nemo ut sed atque officiis veniam quasi vitae.</p> */}
@@ -51,7 +61,7 @@ const Projetos = () => {
         </div>
         <div className={styles.gridCard}>
           <Link to={"https://felipesds23.github.io/Movie-Search-App/"} target="_blank">
-            <img src={movieDatabase} alt="Aplicativo de Filmes" />
+            <img src={movieDatabase} alt="Movie Database" />
             <div className={styles.intro}>
                 <h3>Movie App</h3>
                 {/* <p>Lorem ipsum dolor sit amet cantium laboriosam velit odio magnam. Animi quidem qui in nemo ut sed atque officiis veniam quasi vitae.</p> */}
@@ -76,20 +86,12 @@ const Projetos = () => {
             </div>
           </Link>
         </div>
-        <div className={styles.gridCard}>
-          <Link to={"https://felipesds23.github.io/Age-calculator/"} target="_blank">
-            <img src={ageCalculator} alt="Age Calculator" />
-            <div className={styles.intro}>
-                <h3>Age Calculator</h3>
-                {/* <p>Lorem ipsum dolor sit amet cantium laboriosam velit odio magnam. Animi quidem qui in nemo ut sed atque officiis veniam quasi vitae.</p> */}
-            </div>
-          </Link>
-        </div>
+
         <div className={styles.gridCard}>
           <Link to={"https://felipesds23.github.io/Landing-Page-Ideal/"} target="_blank">
             <img src={landingPage} alt="Landing Page" />
             <div className={styles.intro}>
-                <h3>Landing Page</h3>
+                <h3>Ideal Landing Page</h3>
                 {/* <p>Lorem ipsum dolor sit amet cantium laboriosam velit odio magnam. Animi quidem qui in nemo ut sed atque officiis veniam quasi vitae.</p> */}
             </div>
           </Link>
@@ -98,7 +100,7 @@ const Projetos = () => {
           <Link to={"https://felipesds23.github.io/Case-Converter/"} target="_blank">
             <img src={customText} alt="Conversor de texto" />
             <div className={styles.intro}>
-                <h3>Custom text</h3>
+                <h3>Custom text website</h3>
                 {/* <p>Lorem ipsum dolor sit amet cantium laboriosam velit odio magnam. Animi quidem qui in nemo ut sed atque officiis veniam quasi vitae.</p> */}
             </div>
           </Link>
