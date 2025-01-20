@@ -5,8 +5,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-    /* background-color: aqua; */
 }
 
 .habilidadesContainer h2 {
@@ -15,14 +13,11 @@
     margin: 50px;
     color: #fff;
     text-align: center;
-
-    /* background-color: burlywood; */
 }
 
 h3 {
     color: #fff;
     text-align: left;
-    /* background-color: red; */
     width: 95%;
     font-weight: 500;
     font-size: 24px;
@@ -45,16 +40,11 @@ h3 {
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
     gap: 25px 15px;
     padding: 15px;
-
-
-    /* background-color: red; */
 }
 
 .tecnologiasContainerGrid .gridCard {
     margin: auto;
     height: 170px;
-
-    /* background-color: green; */
 }
 
 .tecnologiasContainerGrid .gridCard .tecIcone {
@@ -82,11 +72,6 @@ h3 {
     }
 }
 
-/* .tecnologiasContainerGrid .gridCard .tecIcone:hover {
-    width: 170px;
-    height: 170px;
-} */
-
 .tecnologiasContainerGrid .gridCard P {
     text-align: center;
     font-weight: 700;
@@ -96,7 +81,6 @@ h3 {
 
 .cursosContainerGrid {
     width: 100%;
-    /* max-width: 1600px; */
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
     gap: 15px;
@@ -111,15 +95,12 @@ h3 {
     justify-content: space-between;
     align-items: flex-start;
     background-color: black;
-    /* white-space: nowrap; */
     height: 150px;
     padding: 15px;
     border: 2px solid var(--font-color);
-    /* box-shadow: 0px 0px 5px 1px var(--selection-color); */
 }
 
 .cursosContainerGrid .gridCard:nth-child(1) {
-    /* background-color: blueviolet; */
     grid-column-start: 1;
     grid-column-end: 3;
 }
@@ -173,7 +154,6 @@ h3 {
     }
 
     .cursosContainerGrid .gridCard:nth-child(1) {
-        /* background-color: blueviolet; */
         grid-column-start: 1;
         grid-column-end: 2;
     }

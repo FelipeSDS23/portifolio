@@ -6,7 +6,6 @@
     align-items: center;
     justify-content: center;
     padding: 7% 10% ;
-    /* background-color: aqua; */
 }
 
 .contatoContainer h2 {
@@ -16,8 +15,6 @@
     color: #fff;
     text-align: left;
     width: 100%;
-    /* background-color: burlywood; */
-    /* padding: 0px 30px; */
 }
 
 .contatoContainer h2 span {
@@ -31,7 +28,6 @@
 
 .contatos {
     width: 100%;
-    /* background-color: aqua; */
 }
 
 .contatosLista {

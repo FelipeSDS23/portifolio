@@ -1,7 +1,5 @@
-import { useEffect } from "react"
 import Cube from "../components/Cube"
 import styles from "./Inicio.module.css"
-// import { NavLink } from 'react-router-dom'
 import { Link } from 'react-scroll'
 
 const Inicio = () => {

@@ -9,14 +9,11 @@
 .sidebar-container {
     width: 140px;
     height: 100%;
-    /* background-color: blue; */
 }
 
 .content-container {
     width: calc(100% - 140px);
     height: 100%;
-
-    /* background-color: green; */
 }
 
 .bars-menu {
@@ -72,7 +69,6 @@
     .content-container {
         width: 100vw;
         height: 100dvh;
-
         background-color: var(--background-color);
     }
 }

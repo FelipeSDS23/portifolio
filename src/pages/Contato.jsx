@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom'
 // font awesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSquareEnvelope } from "@fortawesome/free-solid-svg-icons"
-import { faSquarePhone } from "@fortawesome/free-solid-svg-icons"
+// import { faSquarePhone } from "@fortawesome/free-solid-svg-icons"
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons"
-import { faSquareGithub } from "@fortawesome/free-brands-svg-icons"
-import { faSquareWhatsapp } from "@fortawesome/free-brands-svg-icons"
+// import { faSquareGithub } from "@fortawesome/free-brands-svg-icons"
+// import { faSquareWhatsapp } from "@fortawesome/free-brands-svg-icons"
 import { faSquareInstagram } from "@fortawesome/free-brands-svg-icons"
 import { faSquareFacebook } from "@fortawesome/free-brands-svg-icons"
 

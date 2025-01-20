@@ -40,15 +40,7 @@ const Sidebar = ({ showHideMenu }) => {
           <li><Link to="habilidades" spy={true} smooth={true} offset={50} duration={500} onClick={hideMobileMenu} className={styles.navlink} >Habilidades</Link></li>
           <li><Link to="projetos" spy={true} smooth={true} offset={50} duration={500} onClick={hideMobileMenu} className={styles.navlink} >Projetos</Link></li>
           <li><Link to="contato" spy={true} smooth={true} offset={50} duration={500} onClick={hideMobileMenu} className={styles.navlink} >Contato</Link></li>
-          {/* <li><Link to="/portifolio/contato" className={({ isActive }) => (isActive ? styles.active : styles.navlink)} onClick={hideMobileMenu}>Contato</Link></li> */}
         </ul>
-        {/* <ul>
-          <li><NavLink to="/portifolio/" className={({ isActive }) => (isActive ? styles.active : styles.navlink)} onClick={hideMobileMenu}>Início</NavLink></li>
-          <li><NavLink to="/portifolio/sobre" className={({ isActive }) => (isActive ? styles.active : styles.navlink)} onClick={hideMobileMenu}>Sobre</NavLink></li>
-          <li><NavLink to="/portifolio/habilidades" className={({ isActive }) => (isActive ? styles.active : styles.navlink)} onClick={hideMobileMenu}>Habilidades</NavLink></li>
-          <li><NavLink to="/portifolio/projetos" className={({ isActive }) => (isActive ? styles.active : styles.navlink)} onClick={hideMobileMenu}>Projetos</NavLink></li>
-          <li><NavLink to="/portifolio/contato" className={({ isActive }) => (isActive ? styles.active : styles.navlink)} onClick={hideMobileMenu}>Contato</NavLink></li>
-        </ul> */}
       </nav>
       <div className={styles.socialMediaContainer}>
         <NavLink to="https://www.linkedin.com/in/felipe-santos-7296b8213/" target='_blank'>

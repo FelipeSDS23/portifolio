@@ -18,11 +18,10 @@
     /* primaries colors */
     --background-color: #1F1F1F;
     --sidebar-color: #161616;
-    /* --font-color: #595959; */
     --font-color: #7F7F7A;
     --selection-color: #0091EB;
     --shadow-color: #EC2ACE;
-
+    
     /* fonts */
     --main-font: "Ubuntu"; /* Weights: 400, 500, 700 */
 }

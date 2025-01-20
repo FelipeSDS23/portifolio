@@ -1,9 +1,6 @@
 // react
 import { useEffect, useRef } from 'react';
 
-// react router
-import { BrowserRouter, Routes, Route, Outlet } from 'react-router-dom';
-
 // styles
 import './App.css'
 
@@ -68,28 +65,20 @@ function App() {
 
       <FontAwesomeIcon icon={faBars} className='bars-menu' ref={barsMenu} onClick={showHideMenu} />
       <FontAwesomeIcon icon={faXmark} className='close-bars-menu' ref={closeBarsMenu} onClick={showHideMenu} />
+      
+      <div className='sidebar-container' ref={sidebar} style={innerWidth >= 769 ? { display: "block" } : { display: "none" }}>
+        <Sidebar showHideMenu={showHideMenu} />
+      </div>
 
-      {/* <BrowserRouter> */}
-        <div className='sidebar-container' ref={sidebar} style={innerWidth >= 769 ? { display: "block" } : { display: "none" }}>
-          <Sidebar showHideMenu = {showHideMenu} />
-        </div>
-        <div className='content-container' ref={contentContainer}>
-          <Inicio />
-          <Sobre />
-          <Habilidades />
-          <Projetos />
-          <Contato />
-          <Footer />
-          {/* <Routes>
-            <Route path='/' element={<Inicio />} />
-            <Route path='/sobre' element={<Sobre />} />
-            <Route path='/habilidades' element={<Habilidades />} />
-            <Route path='/projetos' element={<Projetos />} />
-            <Route path='/contato' element={<Contato />} />
-          </Routes> */}
-          {/* <Outlet /> */}
-        </div>
-      {/* </BrowserRouter> */}
+      <div className='content-container' ref={contentContainer}>
+        <Inicio />
+        <Sobre />
+        <Habilidades />
+        <Projetos />
+        <Contato />
+        <Footer />
+      </div>
+      
     </div>
   )
 }
