@@ -1,6 +1,6 @@
 <a href="https://felipesds23.github.io/portifolio/">Link de acesso</a>
 
-# Portfolio
+# Portfólio
 Bem-vindo ao repositório do meu portfólio! Este projeto tem como objetivo apresentar minhas habilidades, experiências e projetos que desenvolvi ao longo da minha jornada como desenvolvedor.
 
 Visão Geral
