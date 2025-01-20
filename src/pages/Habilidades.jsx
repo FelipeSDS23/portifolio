@@ -1,8 +1,6 @@
 import styles from "./Habilidades.module.css"
 
 // font awesome
-import mysql from '../assets/images/logos/mysql.png'
-import mongoDb from '../assets/images/logos/mongodb.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHtml5 } from "@fortawesome/free-brands-svg-icons"
 import { faCss3Alt } from "@fortawesome/free-brands-svg-icons"
@@ -13,8 +11,11 @@ import { faNodeJs } from "@fortawesome/free-brands-svg-icons"
 import { faPhp } from "@fortawesome/free-brands-svg-icons"
 import { faDatabase } from "@fortawesome/free-solid-svg-icons" 
 
-// images
-// import typescript from "../assets/images/typescript_logo/typescript.png"
+// images / logos
+import github from '../assets/images/logos/github.png'
+import laravel from '../assets/images/logos/laravel.png'
+import mysql from '../assets/images/logos/mysql.png'
+import mongoDb from '../assets/images/logos/mongodb.png'
 
 const Habilidades = () => {
   return (
@@ -27,20 +28,8 @@ const Habilidades = () => {
       <div className={styles.tecnologiasContainerGrid}>
         
         <div className={styles.gridCard}>
-          <FontAwesomeIcon icon={faHtml5} className={styles.tecIcone} style={{ color: "#E65100" }} />
-          <p>HTML5</p>
-        </div>
-        <div className={styles.gridCard}>
-          <FontAwesomeIcon icon={faCss3Alt} className={styles.tecIcone} style={{ color: "#0277BD" }} />
-          <p>CSS3</p>
-        </div>
-        <div className={styles.gridCard}>
-          <FontAwesomeIcon icon={faSquareJs} className={styles.tecIcone} style={{ color: "#DAB92D" }} />
-          <p>JAVASCRIPT</p>
-        </div>
-        <div className={styles.gridCard}>
-          <FontAwesomeIcon icon={faReact} className={styles.tecIcone} style={{ color: "#80DEEA" }} />
-          <p>REACT</p>
+          <img src={laravel} className={styles.tecIcone} />
+          <p>Laravel</p>
         </div>
         <div className={styles.gridCard}>
           <FontAwesomeIcon icon={faPhp} className={styles.tecIcone} style={{ color: "#7377AD" }} />
@@ -51,9 +40,25 @@ const Habilidades = () => {
           <p>NODE JS</p>
         </div>
         <div className={styles.gridCard}>
+          <FontAwesomeIcon icon={faSquareJs} className={styles.tecIcone} style={{ color: "#DAB92D" }} />
+          <p>JAVASCRIPT</p>
+        </div>
+        <div className={styles.gridCard}>
+          <FontAwesomeIcon icon={faHtml5} className={styles.tecIcone} style={{ color: "#E65100" }} />
+          <p>HTML5</p>
+        </div>
+        <div className={styles.gridCard}>
+          <FontAwesomeIcon icon={faCss3Alt} className={styles.tecIcone} style={{ color: "#0277BD" }} />
+          <p>CSS3</p>
+        </div>
+        <div className={styles.gridCard}>
+          <FontAwesomeIcon icon={faReact} className={styles.tecIcone} style={{ color: "#80DEEA" }} />
+          <p>REACT</p>
+        </div>
+        {/* <div className={styles.gridCard}>
           <FontAwesomeIcon icon={faDatabase} className={styles.tecIcone} style={{ color: "#2375BA" }} />
           <p>SQL</p>
-        </div>
+        </div> */}
         <div className={styles.gridCard}>
           <img src={mysql} className={styles.tecIcone} />
           <p>MY SQL</p>
@@ -65,6 +70,10 @@ const Habilidades = () => {
         <div className={styles.gridCard}>
           <FontAwesomeIcon icon={faGitAlt} className={styles.tecIcone} style={{ color: "#F4511E" }} />
           <p>GIT</p>
+        </div>
+        <div className={styles.gridCard}>
+          <img src={github} className={styles.tecIcone} />
+          <p>GitHub</p>
         </div>
 
       </div>

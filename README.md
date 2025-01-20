@@ -1,13 +1,16 @@
 <a href="https://felipesds23.github.io/portifolio/">Link de acesso</a>
 
-# React + Vite
+# Portfolio
+Bem-vindo ao repositório do meu portfólio! Este projeto tem como objetivo apresentar minhas habilidades, experiências e projetos que desenvolvi ao longo da minha jornada como desenvolvedor.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Visão Geral
 
-Currently, two official plugins are available:
+Esta uma aplicação web responsiva que demonstra minhas competências tanto no front-end quanto no back-end. Aqui você encontrará informações sobre mim, projetos concluídos e meios de entrar em contato.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# Meu-Portifolio
-# portifolio
-# My_portifolio
+Tecnologias Utilizadas
+
+* HTML5 e CSS3: Para estrutura e estilização.
+
+* JavaScript: Para interatividade.
+
+* React.js: Biblioteca para construção da interface do usuário.
