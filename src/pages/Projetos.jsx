@@ -14,6 +14,7 @@ import customText from "..//assets/images/projects/custom-text.png"
 import myCityApp from "..//assets/images/projects/my-city-app.png"
 import imovi from "..//assets/images/projects/imovi.png"
 import quadrosEquadros from "..//assets/images/projects/quadrosEquadros.png"
+import tarefas from "..//assets/images/projects/tarefas.png"
 
 
 const Projetos = () => {
@@ -22,6 +23,16 @@ const Projetos = () => {
       <h2>Veja alguns dos meus últimos <span>P</span>rojetos</h2>
 
       <div className={styles.containerGrid}>
+
+      <div className={styles.gridCard}>
+          <Link to={"https://github.com/FelipeSDS23/sistema-de-gestao-de-tarefas"} target="_blank">
+            <img src={tarefas} alt="Gerenciador de tarefas" />
+            <div className={styles.intro}>
+                <h3>Gerenciador de tarefas</h3>
+                {/* <p>Lorem ipsum dolor sit amet cantium laboriosam velit odio magnam. Animi quidem qui in nemo ut sed atque officiis veniam quasi vitae.</p> */}
+            </div>
+          </Link>
+        </div>
 
       <div className={styles.gridCard}>
           <Link to={"https://github.com/FelipeSDS23/Painting-sales-website"} target="_blank">
@@ -92,15 +103,6 @@ const Projetos = () => {
             <img src={landingPage} alt="Landing Page" />
             <div className={styles.intro}>
                 <h3>Ideal Landing Page</h3>
-                {/* <p>Lorem ipsum dolor sit amet cantium laboriosam velit odio magnam. Animi quidem qui in nemo ut sed atque officiis veniam quasi vitae.</p> */}
-            </div>
-          </Link>
-        </div>
-        <div className={styles.gridCard}>
-          <Link to={"https://felipesds23.github.io/Case-Converter/"} target="_blank">
-            <img src={customText} alt="Conversor de texto" />
-            <div className={styles.intro}>
-                <h3>Custom text website</h3>
                 {/* <p>Lorem ipsum dolor sit amet cantium laboriosam velit odio magnam. Animi quidem qui in nemo ut sed atque officiis veniam quasi vitae.</p> */}
             </div>
           </Link>
