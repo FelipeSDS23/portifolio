@@ -112,7 +112,7 @@ const Habilidades = () => {
         <div className={styles.gridCard}>
           <span className={styles.tipoDeCurso}>Curso</span>
           <p>
-            <span className={styles.nomeDoCurso}>JavaScript (Avançado)</span><br />
+            <span className={styles.nomeDoCurso}>JavaScript</span><br />
             <span className={styles.instituicao}>Udemy</span>
           </p>
           <span className={styles.periodo}>113h / 2023</span>
@@ -125,15 +125,6 @@ const Habilidades = () => {
             <span className={styles.instituicao}>Curso em Vídeo</span>
           </p>
           <span className={styles.periodo}>160h / 2022 - 2023</span>
-        </div>
-
-        <div className={styles.gridCard}>
-          <span className={styles.tipoDeCurso}>Curso</span>
-          <p>
-            <span className={styles.nomeDoCurso}>JavaScript (Básico)</span><br />
-            <span className={styles.instituicao}>Curso em Vídeo</span>
-          </p>
-          <span className={styles.periodo}>40h / 2023</span>
         </div>
 
         <div className={styles.gridCard}>

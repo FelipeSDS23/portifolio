@@ -17,11 +17,12 @@ const Sobre = () => {
         <div className={styles.paragrafoContainer}>
           <h3>DESENVOLVEDOR<br /> WEB.</h3>
           <p>
-            Apaixonado por tecnologia e inovação, sou um Desenvolvedor Full Stack com formação em Análise 
-            e Desenvolvimento de Sistemas, estou sempre empenhado em adquirir conhecimentos práticos e teóricos 
-            para impulsionar a transformação digital e criar aplicações cada dia mais alinhadas às melhores práticas 
-            do mercado. Tenho expertise em tecnologias como JavaScript, React, Node.js, PHP, MySQL e MongoDB, oferecendo 
-            um conjunto completo de habilidades para desenvolvimento de aplicações web modernas e escaláveis.
+            Apaixonado por tecnologia e inovação, sou um Desenvolvedor Full Stack com formação 
+            em Análise e Desenvolvimento de Sistemas, estou sempre empenhado em adquirir conhecimentos 
+            práticos e teóricos para impulsionar a transformação digital e criar aplicações cada dia mais 
+            alinhadas às melhores práticas do mercado. Tenho expertise em tecnologias como Laravel, JavaScript, 
+            PHP, React, Node.js, MySQL e MongoDB, oferecendo um conjunto completo de habilidades para desenvolvimento 
+            de aplicações web modernas e escaláveis.
           </p>
         </div>
 
