@@ -71,7 +71,7 @@ const Projetos = () => {
           </Link>
         </div>
         <div className={styles.gridCard}>
-          <Link to={"https://felipesds23.github.io/Movie-Search-App/"} target="_blank">
+          <Link to={"https://github.com/FelipeSDS23/Movie-Search-App"} target="_blank">
             <img src={movieDatabase} alt="Movie Database" />
             <div className={styles.intro}>
                 <h3>Movie App</h3>
@@ -80,7 +80,7 @@ const Projetos = () => {
           </Link>
         </div>
         <div className={styles.gridCard}>
-          <Link to={"https://felipesds23.github.io/Weather_app-/"} target="_blank">
+          <Link to={"https://github.com/FelipeSDS23/Weather_app-"} target="_blank">
             <img src={weather} alt="Weather App" />
             <div className={styles.intro}>
                 <h3>Weather App</h3>
