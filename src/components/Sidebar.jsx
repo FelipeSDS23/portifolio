@@ -49,9 +49,9 @@ const Sidebar = ({ showHideMenu }) => {
         <NavLink to="https://github.com/FelipeSDS23" target='_blank'>
           <FontAwesomeIcon icon={faGithub} className={styles.socialMediaIcons} />
         </NavLink>
-        <NavLink to="https://www.instagram.com/felipe_sds_/" target='_blank'>
+        {/* <NavLink to="https://www.instagram.com/felipe/" target='_blank'>
           <FontAwesomeIcon icon={faInstagram} className={styles.socialMediaIcons} />
-        </NavLink>
+        </NavLink> */}
       </div>
     </div>
   )

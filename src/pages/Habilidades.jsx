@@ -94,6 +94,15 @@ const Habilidades = () => {
         <div className={styles.gridCard}>
           <span className={styles.tipoDeCurso}>Curso</span>
           <p>
+            <span className={styles.nomeDoCurso}>Desenvolvimento Web Avançado com Laravel</span><br />
+            <span className={styles.instituicao}>Udemy</span>
+          </p>
+          <span className={styles.periodo}>57h / 2025</span>
+        </div>
+
+        <div className={styles.gridCard}>
+          <span className={styles.tipoDeCurso}>Curso</span>
+          <p>
             <span className={styles.nomeDoCurso}>Node.js</span><br />
             <span className={styles.instituicao}>Udemy</span>
           </p>
