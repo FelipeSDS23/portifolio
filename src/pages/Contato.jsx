@@ -24,19 +24,19 @@ const Contato = () => {
       <div className={styles.contatos}>
         <ul className={styles.contatosLista}>
           <li>
-            <Link to="mailto:felipe03san@gmail.com" target='_blank'>
+            <Link to="mailto:felipe56san@gmail.com" target='_blank'>
               <FontAwesomeIcon icon={faSquareEnvelope} className={styles.iconeContato} />
-              <span>felipe03san@gmail.com</span>
+              <span>felipe56san@gmail.com</span>
             </Link>
           </li>
           {/* <li>
-            <Link to="tel:+5531995731315" target='_blank'>
+            <Link to="tel:+5511999999999" target='_blank'>
               <FontAwesomeIcon icon={faSquarePhone} className={styles.iconeContato} />
-              <span>+55 31 99573-1315</span>
+              <span>+55 11 99999-9999</span>
             </Link>
           </li> */}
           {/* <li>
-            <Link to="https://wa.me/5531995731315" target='_blank'>
+            <Link to="https://wa.me/5511999999999" target='_blank'>
               <FontAwesomeIcon icon={faSquareWhatsapp} className={styles.iconeContato} />
               <span>WhatsApp</span>
             </Link>
@@ -53,18 +53,18 @@ const Contato = () => {
               <span>GitHub</span>
             </Link>
           </li> */}
-          <li>
-            <Link to="https://www.instagram.com/felipe_sds_/" target='_blank'>
+          {/* <li>
+            <Link to="https://www.instagram.com/felipe/" target='_blank'>
               <FontAwesomeIcon icon={faSquareInstagram} className={styles.iconeContato} />
               <span>Instagram</span>
             </Link>
-          </li>
-          <li>
-            <Link to="https://www.facebook.com/felipe03san" target='_blank'>
+          </li> */}
+          {/* <li>
+            <Link to="https://www.facebook.com/felipe" target='_blank'>
               <FontAwesomeIcon icon={faSquareFacebook} className={styles.iconeContato} />
               <span>Facebook</span>
             </Link>
-          </li>
+          </li> */}
 
         </ul>
       </div>
